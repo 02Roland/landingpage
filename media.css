@@ -1,0 +1,218 @@
+@media screen and (min-width: 999px) {
+    header{
+        height: 100vh;
+        background-image: url("images/desktop/image-hero.jpg");
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: space-between;
+        padding: 50px 13%;
+    }
+    header nav{
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        padding-top:  20px;
+        padding-bottom:  30px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    header nav ul{
+        display: flex;
+        list-style-type: none;
+        /* background-color: red; */
+        align-items: center;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    header nav ul li:not(:first-child){
+        margin-left: 20px;
+        /* background-color: yellow; */
+        /* height: 100%; */
+        /* text-align: center; */
+    }
+    nav ul li::after{
+        contain: "";
+        display: block;
+        width: 100%;
+        height: 20px;
+        background-color: white;
+    }
+    #contain-menu{
+        display: none;
+    }
+    header #textPresentation{
+        margin-top: 18%;
+        width: 44%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #textPresentation p{
+        font-size: 65px;
+        height: 270px;
+        padding: 20px;
+        letter-spacing: 2px;
+        padding-bottom: 30px;
+    }
+    main{
+        padding: 150px 120px;
+    }
+    main .container{
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        /* background-color: red; */
+    }
+    #vr-image{
+        width: 60%;
+        height: 500px;
+        background-color: red;
+        background-image: url("images/desktop/image-interactive.jpg");
+    }
+    .container #block{
+        display: flex;
+        align-items: end;
+    }
+    #leaderVr{
+        width: 40%;
+        position: relative;
+        text-align: left;
+        background-color: white;
+        right: 150px;
+        padding-left: 60px;
+        padding-top: 60px;
+    }
+    #block2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #contenue{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .galerichild {
+        width: 260px;
+        max-width: 280px;
+        height: 500px;
+    }
+    #Enfan1{
+        background-image: url("images/desktop/image-deep-earth.jpg");
+    }
+    #Enfant2{
+        background-image: url("images/desktop/image-night-arcade.jpg");
+    }
+    #Enfant3{
+        background-image: url("images/desktop/image-soccer-team.jpg");
+    }
+    #Enfant4{
+        background-image: url("images/desktop/image-grid.jpg");
+    }
+    #Enfant5{
+        background-image: url("images/desktop/image-from-above.jpg");
+    }
+    #Enfant6{
+        background-image: url("images/desktop/image-pocket-borealis.jpg");
+    }
+    #Enfant7{
+        background-image: url("images/desktop/image-curiosity.jpg");
+    }
+    #Enfant8{
+        background: url("images/desktop/image-fisheye.jpg");
+    }
+    .galerichild:first-child{
+        margin-top: 20px;
+    }
+    #titleContain{
+        margin-top: 100px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #titleContain h3{
+        margin: 0;
+        font-size: 40px;
+        
+    }
+    button{
+        margin: 0;
+    }
+    button:hover{
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+    #btn2{
+        display: none;
+    }
+    #btn1{
+        display: block;
+    }
+    footer{
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 100px;
+        padding-right: 100px;
+
+    }
+    footer div ul{
+        align-items: center;
+        flex-direction: row;
+        /* width: 40%; */
+    }
+    footer div ul li:not(:first-child){
+        margin-left: 20px;
+    }
+    footer div ul li:not(:first-child){
+        margin-top: 0px;
+    }
+    .footer-contain:last-child div{
+        /* background-color: red; */
+        display: flex;
+        align-items: end;
+        justify-content: end;
+    }
+    .footer-contain:last-child div img{
+        margin-left: 20px;
+    }
+    footer .footer-contain{
+        height: 135px;
+    }
+    footer  p{
+        margin-top: 40px;
+        margin-bottom: 40px;
+
+    }
+}
+@media screen and (min-width: 1500px) {
+    .galerichild {
+        width: 400px;
+    }
+    header{
+        padding: 50px 15%;
+    }
+    header #textPresentation{
+        width: 42%;
+    }
+    header #textPresentation{
+        margin-top: 22%;
+    }
+    #textPresentation p{
+        font-size: 80px;
+        height: 320px;
+        padding: 20px;
+        letter-spacing: 2px;
+    }
+    main{
+        padding: 150px 15%;
+    }
+}
